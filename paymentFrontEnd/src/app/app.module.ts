@@ -1,18 +1,20 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PaymentDetailComponent } from './payment-detail/payment-detail.component';
-import { PaymentDetailPaymentFormDetailsComponent } from './payment-detail-payment-form-details/payment-detail-payment-form-details.component';
+import { PaymentDetailsComponent } from './payment-details/payment-details.component';
+import { PaymentDetailFormComponent } from './payment-details/payment-detail-form/payment-detail-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PaymentDetailComponent,
-    PaymentDetailPaymentFormDetailsComponent
+    PaymentDetailsComponent,
+    PaymentDetailFormComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

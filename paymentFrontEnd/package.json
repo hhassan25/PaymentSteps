@@ -1,5 +1,5 @@
 {
-  "name": "payment-front-end",
+  "name": "paymentfrontend",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
