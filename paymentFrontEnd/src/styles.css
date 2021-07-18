@@ -25,3 +25,8 @@ table tbody tr:hover{
 input.invalid{
     border-color: red;
 }
+
+.btn btn-info btn-lg btn-block{
+    object-fit: cover;
+    margin-top: 5mm;
+}
